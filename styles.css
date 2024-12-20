@@ -1,10 +1,12 @@
 :root {
-    --text-color: #333;
-    --link-color: #0366d6;
-    --heading-color: #24292e;
-    --border-color: #e1e4e8;
-    --container-width: 800px;
-    --spacing: 1rem;
+    --primary-color: #4a5d5e;
+    --secondary-color: #8b9f83;
+    --text-color: #2c3a3a;
+    --bg-color: #f5f2ea;
+    --accent-color: #d4c8be;
+    --highlight-color: #e8e1d9;
+    --container-width: 1200px;
+    --card-bg: #ffffff;
 }
 
 * {
