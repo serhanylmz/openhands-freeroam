@@ -3,119 +3,118 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Your Name - Academic Profile</title>
+    <title>Serhan Yilmaz - Computer Science Student & Researcher</title>
     <link rel="stylesheet" href="styles.css">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
 </head>
 <body>
     <header>
         <nav>
-            <ul>
-                <li><a href="index.html">Home</a></li>
-                <li><a href="media.html">Media</a></li>
-                <li><a href="misc.html">Misc</a></li>
-                <li><a href="assets/resume.pdf">Resume</a></li>
-                <li><a href="mailto:srhnylmz14@gmail.com">Contact</a></li>
-            </ul>
+            <a href="index.html">Home</a>
+            <a href="media.html">Media</a>
+            <a href="misc.html">Misc</a>
+            <a href="assets/resume.pdf">Resume</a>
+            <a href="mailto:srhnylmz14@gmail.com">Contact</a>
         </nav>
     </header>
 
     <main>
-        <section id="intro">
+        <section class="hero">
             <div class="container">
+                <img src="assets/img/profile.jpg" alt="Serhan Yilmaz" class="profile-image">
                 <h1>Serhan Yilmaz</h1>
-                <div class="intro-text">
-                    <p>I am a senior-year undergraduate student in Computer Science at Sabanci University.</p>
-                    <p>Currently, I'm a Research Intern with Prof. <a href="https://sites.google.com/andrew.cmu.edu/kemal-oflazer/">Kemal Oflazer</a> at Carnegie Mellon University, focusing on advanced question generation, compound AI systems and multi-agent frameworks.</p>
-                    <p>I'm also a contributor to <a href="https://cohere.com/blog/aya-multilingual">Project Aya by Cohere for AI</a>, contributing to INCLUDE, a multilingual benchmarking dataset for LLMs.</p>
-                    <p>Previously, I worked with Anmol Goel and Prof. <a href="https://www.informatik.tu-darmstadt.de/ukp/ukp_home/head_ukp/index.en.jsp">Iryna Gurevych</a> at TU Darmstadt, developing a self-sustaining agentic chatbot system for psychological assessment of Ukrainian refugees, optimized for deployment at <a href="https://www.charite.de/en/">Charité Berlin</a>.</p>
-                    <p>I worked as a Research Intern at KTH Royal Institute of Technology under Prof. <a href="https://www.kth.se/profile/skantze">Gabriel Skantze</a>, developing advanced voice activity prediction models and deploying enhanced models on Furhat Robotics' humanoid robots.</p>
-                    <p>I worked as a Research Intern at EPFL, where I initiated <a href="https://www.serhanyilmaz.org/Project-Charisius/">Project Charisius</a>, focusing on developing robust, privacy-preserving federated machine learning environments.</p>
-                    <p>At Sabanci University, I founded and led <a href="https://kaisabanci.com/">kAi Sabanci</a>, the university's premier AI club, growing membership to over 600 students.</p>
-                </div>
+                <p class="subtitle">Senior Undergraduate Student in Computer Science</p>
+                <p class="institution">Sabanci University</p>
             </div>
         </section>
 
-        <section id="research-interests">
+        <section class="about">
+            <div class="container">
+                <p>I am a senior-year undergraduate student in Computer Science at Sabanci University.</p>
+                <p>Currently, I'm a Research Intern with Prof. <a href="https://sites.google.com/andrew.cmu.edu/kemal-oflazer/">Kemal Oflazer</a> at Carnegie Mellon University, focusing on advanced question generation, compound AI systems and multi-agent frameworks.</p>
+                <p>I'm also a contributor to <a href="https://cohere.com/blog/aya-multilingual">Project Aya by Cohere for AI</a>, contributing to INCLUDE, a multilingual benchmarking dataset for LLMs.</p>
+                <p>Previously, I worked with Anmol Goel and Prof. <a href="https://www.informatik.tu-darmstadt.de/ukp/ukp_home/head_ukp/index.en.jsp">Iryna Gurevych</a> at TU Darmstadt, developing a self-sustaining agentic chatbot system for psychological assessment of Ukrainian refugees, optimized for deployment at <a href="https://www.charite.de/en/">Charité Berlin</a>.</p>
+                <p>I worked as a Research Intern at KTH Royal Institute of Technology under Prof. <a href="https://www.kth.se/profile/skantze">Gabriel Skantze</a>, developing advanced voice activity prediction models and deploying enhanced models on Furhat Robotics' humanoid robots.</p>
+                <p>I worked as a Research Intern at EPFL, where I initiated <a href="https://www.serhanyilmaz.org/Project-Charisius/">Project Charisius</a>, focusing on developing robust, privacy-preserving federated machine learning environments.</p>
+                <p>At Sabanci University, I founded and led <a href="https://kaisabanci.com/">kAi Sabanci</a>, the university's premier AI club, growing membership to over 600 students.</p>
+            </div>
+        </section>
+
+        <section class="research-interests">
             <div class="container">
                 <h2>Research Interests</h2>
-                <p>Multi-Agent Systems, Agentic AI Frameworks, Conversational AI. I'm particularly excited about developing compound AI systems and enhancing multi-agent collaboration frameworks.</p>
+                <p>I'm particularly excited about developing compound AI systems and enhancing multi-agent collaboration frameworks.</p>
+                <ul>
+                    <li>Multi-Agent Systems</li>
+                    <li>Agentic AI Frameworks</li>
+                    <li>Conversational AI</li>
+                    <li>Compound AI Systems</li>
+                </ul>
             </div>
         </section>
 
-        <section id="news">
+        <section class="news">
             <div class="container">
                 <h2>News</h2>
-                <div class="news-grid">
-                    <div class="news-item">
-                        <div class="news-date">Dec 1, 2024</div>
-                        <div class="news-content">INCLUDE is now available on <a href="https://arxiv.org/abs/2411.19799">arXiv</a>!</div>
-                    </div>
-                    <div class="news-item">
-                        <div class="news-date">Sep 27, 2024</div>
-                        <div class="news-content">Submitted a paper to ICLR 2025: "<em>INCLUDE: Evaluating Multilingual Language Understanding with Regional Knowledge</em>" in collaboration with Cohere for AI, ETH Zurich and the Swiss AI Initiative.</div>
-                    </div>
-                    <div class="news-item">
-                        <div class="news-date">Sep 23, 2024</div>
-                        <div class="news-content">Concluded the LLM-Agent work at TU Darmstadt, delivered a psychological assessment chatbot to be deployed at <a href="https://www.charite.de/en/">Charité Berlin</a>.</div>
-                    </div>
-                    <div class="news-item">
-                        <div class="news-date">Aug 13, 2024</div>
-                        <div class="news-content">This webpage is live. Migrating from the <a href="https://www.serhanyilmaz.org/serhanylmz.github.io-old/">previous one</a>.</div>
-                    </div>
-                    <div class="news-item">
-                        <div class="news-date">Jul 25, 2024</div>
-                        <div class="news-content">Started an LLM-Agent project for <a href="https://www.charite.de/en/">Charité Berlin</a>. Collaborating with Anmol Goel under Prof. Iryna Gurevych.</div>
-                    </div>
-                    <div class="news-item">
-                        <div class="news-date">Jun 18, 2024</div>
-                        <div class="news-content">Started working with Prof. Gabriel Skantze at KTH. Moved to Stockholm for 2 months.</div>
-                    </div>
-                    <div class="news-item">
-                        <div class="news-date">Dec 1, 2023</div>
-                        <div class="news-content">Started working with Prof. Kemal Oflazer.</div>
-                    </div>
-                    <div class="news-item">
-                        <div class="news-date">Sep 9, 2023</div>
-                        <div class="news-content">Returned back to Turkey after 3 months in Lausanne working at EPFL.</div>
-                    </div>
-                    <div class="news-item">
-                        <div class="news-date">Jun 19, 2023</div>
-                        <div class="news-content">Started working at EPFL, moved to Lausanne for 3 months.</div>
-                    </div>
-                    <div class="news-item">
-                        <div class="news-date">Mar 15, 2023</div>
-                        <div class="news-content">Officially founded <a href="https://kaisabanci.com/">kAi Sabanci</a> as president, together with an <a href="assets/img/kai_founding_board.jpg">amazing team</a>.</div>
-                    </div>
+                <div class="news-item">
+                    <div class="news-date">Dec 1, 2024</div>
+                    <div class="news-content">INCLUDE is now available on <a href="https://arxiv.org/abs/2411.19799">arXiv</a>!</div>
+                </div>
+                <div class="news-item">
+                    <div class="news-date">Sep 27, 2024</div>
+                    <div class="news-content">Submitted a paper to ICLR 2025: "<em>INCLUDE: Evaluating Multilingual Language Understanding with Regional Knowledge</em>" in collaboration with Cohere for AI, ETH Zurich and the Swiss AI Initiative.</div>
+                </div>
+                <div class="news-item">
+                    <div class="news-date">Sep 23, 2024</div>
+                    <div class="news-content">Concluded the LLM-Agent work at TU Darmstadt, delivered a psychological assessment chatbot to be deployed at <a href="https://www.charite.de/en/">Charité Berlin</a>.</div>
+                </div>
+                <div class="news-item">
+                    <div class="news-date">Aug 13, 2024</div>
+                    <div class="news-content">This webpage is live. Migrating from the <a href="https://www.serhanyilmaz.org/serhanylmz.github.io-old/">previous one</a>.</div>
+                </div>
+                <div class="news-item">
+                    <div class="news-date">Jul 25, 2024</div>
+                    <div class="news-content">Started an LLM-Agent project for <a href="https://www.charite.de/en/">Charité Berlin</a>. Collaborating with Anmol Goel under Prof. Iryna Gurevych.</div>
+                </div>
+                <div class="news-item">
+                    <div class="news-date">Jun 18, 2024</div>
+                    <div class="news-content">Started working with Prof. Gabriel Skantze at KTH. Moved to Stockholm for 2 months.</div>
+                </div>
+                <div class="news-item">
+                    <div class="news-date">Dec 1, 2023</div>
+                    <div class="news-content">Started working with Prof. Kemal Oflazer.</div>
+                </div>
+                <div class="news-item">
+                    <div class="news-date">Sep 9, 2023</div>
+                    <div class="news-content">Returned back to Turkey after 3 months in Lausanne working at EPFL.</div>
+                </div>
+                <div class="news-item">
+                    <div class="news-date">Jun 19, 2023</div>
+                    <div class="news-content">Started working at EPFL, moved to Lausanne for 3 months.</div>
+                </div>
+                <div class="news-item">
+                    <div class="news-date">Mar 15, 2023</div>
+                    <div class="news-content">Officially founded <a href="https://kaisabanci.com/">kAi Sabanci</a> as president, together with an <a href="assets/img/kai_founding_board.jpg">amazing team</a>.</div>
                 </div>
             </div>
         </section>
 
-        <section id="publications">
+        <section class="publications">
             <div class="container">
                 <h2>Publications</h2>
-                <div class="publications-list">
-                    <div class="publication">
-                        <div class="pub-number">1.</div>
-                        <div class="pub-content">
-                            <p class="pub-title">CASCADES: Compound AI Systems for Controlled And Diverse Question Generation</p>
-                            <p class="authors"><em>Serhan Yilmaz</em> and Kemal Oflazer</p>
-                            <p class="venue">In preparation, expected 2024</p>
-                        </div>
-                    </div>
-                    <div class="publication">
-                        <div class="pub-number">2.</div>
-                        <div class="pub-content">
-                            <p class="pub-title">INCLUDE: Evaluating Multilingual Language Understanding with Regional Knowledge</p>
-                            <p class="authors">Angelika Romanou, [...], <em>Serhan Yilmaz</em>, [...], Sara Hooker, Antoine Bosselut, et al.</p>
-                            <p class="venue">Under review at ICLR 2025, 2024</p>
-                            <div class="pub-links">
-                                <a href="assets/include/paper.pdf">paper</a> |
-                                <a href="https://arxiv.org/abs/2411.19799">arxiv</a> |
-                                <a href="https://github.com/for-ai/global-exams">code</a> |
-                                <a href="assets/include/cite.txt">cite</a>
-                            </div>
-                        </div>
+                <div class="publication">
+                    <p class="pub-title">CASCADES: Compound AI Systems for Controlled And Diverse Question Generation</p>
+                    <p class="authors"><em>Serhan Yilmaz</em> and Kemal Oflazer</p>
+                    <p class="venue">In preparation, expected 2024</p>
+                </div>
+                <div class="publication">
+                    <p class="pub-title">INCLUDE: Evaluating Multilingual Language Understanding with Regional Knowledge</p>
+                    <p class="authors">Angelika Romanou, [...], <em>Serhan Yilmaz</em>, [...], Sara Hooker, Antoine Bosselut, et al.</p>
+                    <p class="venue">Under review at ICLR 2025, 2024</p>
+                    <div class="pub-links">
+                        <a href="assets/include/paper.pdf">paper</a>
+                        <a href="https://arxiv.org/abs/2411.19799">arxiv</a>
+                        <a href="https://github.com/for-ai/global-exams">code</a>
+                        <a href="assets/include/cite.txt">cite</a>
                     </div>
                 </div>
             </div>
